@@ -10,7 +10,7 @@ then
   mkdir glove
   cd glove
   wget http://nlp.stanford.edu/data/glove.840B.300d.zip
-  unzip glove.6B.zip
+  unzip glove.840B.300d.zip
   cd ..
 fi
 
