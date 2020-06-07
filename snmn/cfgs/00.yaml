@@ -1,0 +1,12 @@
+MODEL:
+  T_CTRL: 3
+  CTRL:
+    LINEAR_MODULE_WEIGHTS: True
+    USE_WORD_EMBED: False
+  NMN:
+    VALIDATE_MODULES: True
+    STACK:
+      LENGTH: 3
+      GUARD_STACK_PTR: True
+      USE_HARD_SHARPEN: False
+      SOFT_SHARPEN_TEMP: 0.4
